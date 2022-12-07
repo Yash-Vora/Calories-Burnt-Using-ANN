@@ -46,6 +46,13 @@ When you exercise, heart rate increases to circulate more oxygen (via the blood)
     </tbody>
 </table>
 
+## Run web app in Docker
+Run following commands to run app in docker.
+```powershell
+docker build -t caloriesburntapp .
+docker run -p 8000:8000 caloriesburntapp
+```
+
 ## Tools & Technologies Used
 - Python
 - Flask
